@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #019CBA;
+}
+
+section.container{
+    background-color: #fff;
+    margin: 50px;
+    padding: 10px;
+    height: 20%;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    float: right;
+    right: 425px;
+    border-radius: 10px;
+   
+}

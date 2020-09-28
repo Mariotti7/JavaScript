@@ -1,0 +1,12 @@
+body{
+    background-color: #123234;
+}
+section.container{
+    background-color: #fff;
+    text-align: center;
+    padding: 100px;
+    margin: 100px;
+    border-radius: 50px;
+    font-size: 20pt;
+   
+}

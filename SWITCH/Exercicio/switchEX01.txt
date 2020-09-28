@@ -1,0 +1,37 @@
+EXEMPLO DO EXERCÍCIO => DATE OBJECT
+
+const h1 = document.querySelector('.containter h1');
+const data = new Date();
+const opcoes = {
+	dateStyle: 'full',12:00 14/07/2020
+	timeStyle: 'short'
+}
+
+h1.innerHTML = data.toLocaleDateString('pt-BR', opcoes);
+
+			
+					ou
+[RECOMENDADA PELO TAMANHO DO CODIGO]
+
+const h1 = document.querySelector('.containter h1');
+const data = new Date();
+h1.innerHTML = data.toLocaleDateString('pt-BR', {dateStyle: 'full', timeStules: 'short'});
+
+
+					ou
+
+SOLUÇÃO PARA NAO UTILIZAR O SWITCH CASE:
+
+Substitua os Meses e Dias da Semana por ARRAY:
+
+function getMesHora(diaMes){
+	const meses = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho',
+'Agosto','Setembro','Outubro','Novembro','Dezembro']
+	return meses[diaMes];
+}
+
+function getDataHora(diaSemana){
+	const diasSemana = ['Domingo', 'Segunda-Feira', 'Terça-Feira', 'Quarta-Feira', 'Quinta-Feira',
+'Sexta-Feira', 'Sábado'];
+	return diasSemana[diaSemana];
+}
