@@ -24,11 +24,11 @@ nome.forEach(function(valor, indice, array){ // executando valor + indice + arra
     console.log(valor, indice, array);  
 });
 
-const lista = ['S', 'e', 'i', 'o', 's'];
+const lista = ['h', 't', 't', 'p', 's'];
 
 for (let i of lista){
     console.log(i);
 }
-lista.forEach(function(cu, cuzin, cuzao, cuu, i){
-    console.log(cu, cuzin, cuzao, cuu, i);
+lista.forEach(function(du, dudu, edu, madu, i){
+    console.log(du, dudu, edu, madu, i);
 });
