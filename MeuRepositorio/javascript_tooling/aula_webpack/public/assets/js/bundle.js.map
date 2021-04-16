@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://Webpack/./src/index.js"],"names":["ola","nome","console","log"],"mappings":";;;;;AAAA,SAASA,GAAT,GAAc;AACV,MAAIC,IAAI,GAAG,SAAX;AACAC,SAAO,CAACC,GAAR,mBAAoBF,IAApB;AACH;;AACDD,GAAG,G","file":"bundle.js","sourcesContent":["function ola(){\n    let nome = 'Leandro'\n    console.log(`Olá, ${nome}`)\n}\nola()"],"sourceRoot":""}
